@@ -106,6 +106,19 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.gmail-link {
+  display: inline-flex;
+  align-items: center;
+  color: #d93025;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  transition: color 0.2s;
+}
+.gmail-link:hover {
+  color: #a52714;
+  text-decoration: underline;
+}
 @media (max-width: 600px) {
   main {
     padding: 0 0.3rem;
